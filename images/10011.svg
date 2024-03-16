@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.11 156.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <g id="PlayIcon">
+    <g>
+      <circle id="Edge" class="cls-2" cx="78.06" cy="78.06" r="73.56"/>
+      <polygon id="Arrow" class="cls-1" points="96.88 77.87 90.17 84.57 67.22 107.52 60.51 100.82 83.46 77.87 60.51 54.91 67.22 48.2 90.17 71.15 96.88 77.87"/>
+    </g>
+  </g>
+</svg>

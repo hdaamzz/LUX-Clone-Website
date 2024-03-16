@@ -1,0 +1,681 @@
+@font-face {
+    font-family: Jalliestha;
+    src: url(JalliesthaDEMO.ttf);
+}
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url(./fonts/montserratfullversion/Montserrat-SemiBold.otf);
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url(./fonts/montserratfullversion/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: MontserratRegular;
+    src: url(./fonts/montserratfullversion/Montserrat-Regular.otf);
+}
+html{
+    scroll-behavior: smooth;
+}
+.br{
+    display: block;
+    margin-bottom: 20px;
+}
+.brr{
+    display: block;
+    margin-bottom: 30px;
+}
+.brrr{
+    display: block;
+    margin-bottom: 33px;
+}
+.brs{
+    display: block;
+    margin-bottom: 16px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 114px;
+    background-color: #fff;
+}
+.logobox{
+    width: 156px;
+    height: 114px;
+}
+.luxlogo{
+    margin-top: 19px;
+    margin-left: 21px;
+    width: 119px;
+    height: 72px;
+}
+.navbar{
+    width: 604px;
+    height: 114px;
+}
+.navlist{
+    margin-top: 28px;
+    display: flex;
+    list-style: none;
+    margin-left: -38px;
+}
+.navlists{
+    display: flex;
+    margin-left: 39px;
+
+}
+.navh4{
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    line-height: 13.3px;
+    color: #28183E;
+    font-family: MontserratSemiBold;
+}
+.signuph4{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 22px;
+    letter-spacing: 1.5px;
+    line-height: 13.3px;
+    color: #28183E;
+    font-family: MontserratSemiBold;
+}
+.signupbox {
+    display: flex;
+    width: 340px;
+    margin-left: 311px;
+    height: 114px;
+}
+.search{
+    display: flex;
+    margin-top: 28px;
+    width: 37%;
+    height: 56px;
+    margin-left: 20px;
+}
+.searchicon{
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 55px;
+    height: 43px;
+}
+.signup{
+    display: flex;
+    margin-left: 28px;
+    width: 37%;
+    margin-top: 33px;
+    height: 43px;
+    background-color: #E3BD9F;
+    border: 2px solid #E3BD9F; 
+    border-radius: 30px 30px;
+}
+.signup:hover{
+    background-color: #fff;
+    transition: ease 0.5s;
+    
+}
+.bodytop{
+    display: flex;
+    width: 100%;
+    height: 641.31px;
+    background-color: aquamarine;
+}
+.bodytopleft{
+    width: 734.5px;
+    height: 100%;
+    background-color: #5a0f4d;
+}
+.bodytopright{
+    
+    width: 614.5px;
+    height: 100%;
+}
+.bodylefttext{
+    font-size: 2.375rem;
+    letter-spacing: 4px;
+    margin-left: 60px;
+    color: #fff;
+    font-weight: inherit;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: Jalliestha;
+    margin-top: 38px;
+    
+}
+#topbodyboldtext{
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #fff;
+    font-size: 48px;
+    font-family: MontserratBold;
+    line-height: 54px;
+}
+.bodypara{
+    width: 614.5px;
+    height: 259.13px;
+    color: #fff;
+    margin-top: -23px;
+    margin-left: 60px;
+    font-family: MontserratRegular;
+    font-size: 22px;
+    line-height: 43.2px;
+}
+.learnmore{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 39px;
+    background-color: #E3BD9F;
+    width: 251px;
+    border: 2px solid #E3BD9F;
+    height: 48px;
+    border-radius: 30px 30px;
+}
+.learnmore:hover{
+    background-color: #fff;
+    transition: ease 0.5s;
+}
+#learnmoretext{
+    font-family: MontserratRegular;
+    margin-top: 18px;
+    margin-left: 63px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #28183E;
+    opacity: 0.9;
+    line-height: 13.3px;
+    letter-spacing: 1.4px;
+}
+.mainbody{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+
+}
+#mainbodyflower{
+    margin-top: 20px;
+    width: 309px;
+    height: 330px;
+    rotate: 180deg;
+    position: absolute;
+    right: 0px;
+}
+#mainbodylogo{
+    height: 102px;
+    width: 102px;
+    margin-top: 77px;
+    margin-left: 61px;
+}
+#mainbodyheading{
+    height: 48px;
+    width: 848px;
+    color: #28183E;
+    font-family: MontserratBold;
+    font-size: 48px;
+    line-height: 43px;
+    margin-top: 216px;
+    margin-left: -103px;
+}
+.productmain{
+    display: flex;
+    width: 100%;
+    height: 536px;
+    background-color: #fff;
+    
+}
+.productbox{
+    display: flex;
+    margin-top: 112px;
+    margin-left: 60px;
+    width: 1180px;
+    height: 422px;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.productbox1{
+    width: 32.333%;
+    height: 100%;
+    border: 1px solid #e3bd9f;
+
+}
+.productbox2{
+    width: 32.333%;
+    height: 100%;
+    border: 1px solid #e3bd9f;
+    
+
+}
+.productbox3{
+    width: 32.333%;
+    height: 100%;
+    border: 1px solid #e3bd9f;
+   
+
+}
+.productbox1sub{
+    width: 100%;
+    height: 319px;
+    background-color: #fff;
+
+}
+.productbox2sub{
+    width: 100%;
+    height: 319px;
+    background-color: #fff;
+
+    
+}
+.productbox3sub{
+    
+    width: 100%;
+    height: 319px;
+    background-color: #fff;
+}
+.productadg{
+    margin-top: 56px;
+    margin-left: 92px;
+}
+.product1sub2{
+    display: flex;
+    width: 100%;
+    height: 103px;
+    background-color: #e3bd9f;
+    align-items: flex-end;
+
+}
+.product2sub2{
+    display: flex;
+    width: 100%;
+    height: 103px;
+    background-color: #c6a6cc;
+    align-items: flex-end;
+    
+}
+.product3sub2{
+    display: flex;
+    width: 100%;
+    height: 103px;
+    background-color: #a9d2a5;
+    align-items: flex-end;
+    
+}
+.producttext{
+    margin-top: 0;
+    margin-left: 20px;
+    color: #28183E;
+    font-size: 22px;
+    font-family: MontserratBold;
+    line-height: 40px;
+}
+.arrowicon{
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+.allproduct{
+    display: flex;
+    width: 100%;
+    height: 145px;
+    align-items: center;
+    background-color: #fff;
+}
+.allproductbotton{
+    display: flex;
+    margin-left: 549px;
+    background-color: #E3BD9F;
+    width: 251px;
+    border: 2px solid #E3BD9F;
+    height: 48px;
+    border-radius: 30px 30px;
+
+}
+.allproductbotton:hover{
+    background-color: #fff;
+    transition: ease 0.5s;
+}
+#allproducttext{
+    font-family: MontserratRegular;
+    margin-top: 18px;
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #28183E;
+    opacity: 0.8;
+    line-height: 13.3px;
+    letter-spacing: 1.4px;
+}
+.videobody{
+    display: flex;
+    width: 100%;
+    height: 758px;
+    flex-wrap: wrap;
+    background: linear-gradient(101deg, #5a0f4d 8.22%, #200c32 48.42%, #220d3e 93.91%);
+}
+.videoheaderbox{
+    margin-left: 313px;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 58px;
+}
+#videoheadtext{
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #E3BD9F;
+    font-size: 48px;
+    font-family: MontserratBold;
+    line-height: 54px;
+}
+.videobox{
+    background-image: url(./images/10012croped.jpg);
+    display: flex;
+    width: 987px;
+    margin-left: 185px;
+    height: 556px;
+    align-items: center;
+    justify-content: center;
+}
+.playicon{
+    width: 54px;
+    height: 54px;
+
+}
+.topproductbar{
+    display: flex;
+    width: 100%;
+    height: 174px;
+    background-color: #f5cabf;
+}
+#topproductbartext{
+    font-family: MontserratBold;
+    margin-top: 60px;
+    margin-left: 520px;
+    font-size: 48px;
+    color: #28183E;
+    line-height: 54px;
+}
+.topproductbody{
+    display: flex;
+    width: 100%;
+    height: 624px;
+    background-color: #f5cabf;
+
+}
+.topproductbodyleft{
+    width: 675px;
+    height: 100%;
+}
+.topproductimage{
+    margin-top: 31px;
+    width: 786px;
+    height: 666px;
+    margin-left: -57px;}
+.topproductbodyright{
+    display: flex;
+    width: 615px;
+    height: 100%;
+    background-color: hsla(0, 0%, 100%, .7);
+    flex-direction: column;
+
+}
+.top-productbody-right-heading{
+    display: flex;
+    width: 100%;
+    height: 123px;
+
+}
+#top-productbody-right-heading-text{
+    color: #28183E;
+    font-size: 32px;
+    font-family: MontserratBold;
+    line-height: 50px;
+    margin-top: 64px;
+    margin-left: 59px;
+}
+.top-productbody-right-paragraph{
+    display: flex;
+    width: 100%;
+    height: 233px;
+}
+#top-productbody-right-paragraph1{
+    color: hsl(265, 44%, 17% );
+    font-size: 16px;
+    font-family: MontserratRegular;
+    line-height: 35px;
+    margin-right: 60px;
+    margin-top: 16px;
+    margin-left: 59px;
+
+}.top-productbody-right-emblem{
+    display: flex;
+    width: 100%;
+    height: 155px;
+}
+.emblemlist{
+    margin-top: 28px;
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.emblem1{
+    width: 116.72px;
+    height: 134px;
+}
+.emblem2{
+    width: 116.72px;
+    height: 134px;
+    margin-left: 7px;
+}
+.details{
+    display: flex;
+    width: 100%;
+    height: 59px;
+    align-items: center;
+}
+.detailsbutton{
+    display: flex;
+    margin-left: 62px;
+    background-color: #E3BD9F;
+    width: 248px;
+    border: 2px solid #E3BD9F;
+    height: 48px;
+    border-radius: 30px 30px;
+
+}
+.detailsbutton:hover{
+    background-color:#fff ;
+    transition: 0.5s ease-in-out;
+
+}
+
+#detailsbuttontext{
+    font-family: MontserratRegular;
+    margin-top: 18px;
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #28183E;
+    opacity: 0.8;
+    line-height: 13.3px;
+    letter-spacing: 1.4px;
+}
+body{
+    background-color: #f5cabf;
+}
+footer{
+    width: 100%;
+    height: 420px;
+    background-color: #f5cabf;
+}
+.to-the-top{
+    display: flex;
+    margin-top: 61px;
+    width: 100%;
+    height: 59px;
+    background-color: #f5cabf;
+    justify-content: flex-end;
+
+}
+.to-the-top-box{
+    display: flex;
+    margin-left: 62px;
+    background-color: #fff;
+    width: 189px;
+    height: 52px;
+}
+#to-the-top-text{
+    font-family: MontserratRegular;
+    margin-top: 18px;
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #28183E;
+    line-height: 13.3px;
+    letter-spacing: 1.4px;
+}
+.footermain{
+    display: flex;
+    width: 100%;
+    height: 243px;
+    background-color: #f5cabf;
+}
+.footer-lux-logo{
+    width: 240px;
+    height: 100%;
+}
+.footer-lux-img{
+    margin-top: 35px;
+    margin-left: 66px;
+    width: 119px;
+    height: 72px;
+}
+.footer-legal-box{
+    margin-left: 85px;
+    width: 200px;
+    height: 100%;
+}
+.footer-txt-heading{
+    font-family: MontserratBold;
+    margin-top: 37px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #28183E;
+    line-height: 16px;
+}
+.footer-list-txt{
+    list-style: none;
+
+}
+.footer-list-txt1{
+    font-family: MontserratRegular;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: lighter;
+    opacity: 0.9;
+    color: #28183E;
+    line-height: 13.3px;
+    letter-spacing: 0px;
+}
+.footer-help-box{
+    margin-left: 35px;
+    width: 150px;
+    height: 100%;
+}
+.footer-location-box{
+    margin-left: 20px;
+    width: 250px;
+    height: 100%;
+}
+.locationtxt{
+    font-family: MontserratRegular;
+    border-right: 1px solid #200c32;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #28183E;
+    line-height: 13.3px;
+    opacity: 0.9;
+    letter-spacing: 0px;
+}
+.footer-follow-box{
+    margin-left: 140px;
+    width: 196px;
+    height: 100%;
+}
+.facebook{
+    display: ruby;
+
+}
+.br25{
+    display: block;
+    margin-bottom: 25px;
+}
+.br37{
+    display: block;
+    margin-bottom: 37px;
+}
+.footer-location-heading{
+    letter-spacing: 1px;
+    font-family: MontserratBold;
+    margin-top: 37px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #28183E;
+    line-height: 16px;
+
+}
+.footer-location-txt1{
+    font-family: MontserratRegular;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #28183E;
+    opacity: 0.9;
+    line-height: 13.3px;
+}
+.facebooklogo{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border-radius: 40px 40px;
+    background-color: #200c32;
+    justify-content: center;
+    align-items: center;
+}
+.footerend{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.unilivericon{
+    margin-left: 521px;
+    margin-top: 27px;
+    width: 40px;
+    height: 44px;
+}
+.creditbox{
+    display: flex;
+    margin-top: 29px;
+    margin-left: 15px;
+    width: 255px;
+    height: 40px;
+    justify-content: center;
+}
+#credit-text{
+    font-family: MontserratRegular;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #28183E;
+    opacity: 0.9;
+    line-height: 11.7px;
+}
